@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { RiCoinsLine } from "react-icons/ri";
+import PropTypes from 'prop-types';
 
-const Navbar = () => {
+const Navbar = ({ coins = 0 }) => {
 
     const [isOpen, setIsOpen] = useState(false);
 
@@ -10,11 +11,11 @@ const Navbar = () => {
     }
 
     return (
-        <nav className="flex justify-between items-center bg-white border-b border-gray-200 py-4 px-6">
+        <nav className="flex justify-between items-center bg-white border-b border-gray-200 py-4 px-6 w-5/6 mx-auto">
 
             <div className="container mx-auto flex justify-between items-center">
                 <div className="flex items-center">
-                    <img className="w-12 h-auto" src="/src/assets/assets/logo.png" alt="" />
+                    <img className="w-12 h-auto" src="/assets/assets/logo.png" alt="" />
                 </div>
             </div>
 
@@ -35,7 +36,6 @@ const Navbar = () => {
                             d={isOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"}
                         />
                     </svg>
-
                 </button>
             </div>
 
@@ -64,7 +64,7 @@ const Navbar = () => {
                 </ul>
 
                 <button className="flex items-center bg-white border border-gray-300 px-4 py-2 rounded-lg font-semibold text-gray-800 hover:bg-gray-100 whitespace-nowrap">
-                    <span className='mr-2'>0 Coin</span> <RiCoinsLine className="text-yellow-400 text-2xl" />
+                    <span className='mr-2'>{coins} Coin</span> <RiCoinsLine className="text-yellow-400 text-2xl" />
                 </button>
             </div>
 
@@ -84,7 +84,7 @@ const Navbar = () => {
                             <a className="text-gray-700 font-semibold hover:text-blue-500" href="">Schedules</a>
                         </li>
                         <li>
-                            <button className="flex items-center bg-gray-100 border border-gray-300 text-gray-700 font-semibold py-2 px-4 rounded-md hover:bg-gray-200 whitespace-nowrap">0 Coin <span className="ml-2"><RiCoinsLine className="text-yellow-400 text-2xl" /></span></button>
+                            <button className="flex items-center bg-gray-100 border border-gray-300 text-gray-700 font-semibold py-2 px-4 rounded-md hover:bg-gray-200 whitespace-nowrap">{coins} Coin <span className="ml-2"><RiCoinsLine className="text-yellow-400 text-2xl" /></span></button>
                         </li>
                     </ul>
                 </div>
@@ -92,6 +92,11 @@ const Navbar = () => {
             }
         </nav>
     );
+    
 };
 
-export default Navbar;  
+Navbar.propTypes = {
+    coins: PropTypes.number.isRequired,
+};
+
+export default Navbar;

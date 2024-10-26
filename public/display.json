@@ -1,0 +1,123 @@
+[
+    {
+      "playerId": 1,
+      "name": "Virat Kohli",
+      "country": "India",
+      "image": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+      "role": "Batsman",
+      "battingType": "Right-handed",
+      "bowlingType": "Right-arm medium",
+      "biddingPrice": 25000
+    },
+    {
+      "playerId": 2,
+      "name": "AB de Villiers",
+      "country": "South Africa",
+      "image": "https://documents.iplt20.com/playerheadshot/ipl/284/233.png",
+      "role": "Batsman",
+      "battingType": "Right-handed",
+      "bowlingType": "Right-arm medium",
+      "biddingPrice": 22000
+    },
+    {
+      "playerId": 3,
+      "name": "Mitchell Starc",
+      "country": "Australia",
+      "image": "https://documents.iplt20.com/ipl/IPLHeadshot2024/31.png",
+      "role": "Bowler",
+      "battingType": "Left-handed",
+      "bowlingType": "Left-arm fast",
+      "biddingPrice": 20000
+    },
+    {
+      "playerId": 4,
+      "name": "Ben Stokes",
+      "country": "England",
+      "image": "https://www.iplbetonline.in/wp-content/uploads/2023/04/177-1-780x780.png",
+      "role": "All-rounder",
+      "battingType": "Left-handed",
+      "bowlingType": "Right-arm fast-medium",
+      "biddingPrice": 28000
+    },
+    {
+      "playerId": 5,
+      "name": "Kane Williamson",
+      "country": "New Zealand",
+      "image": "https://www.gujarattitansipl.com/static-assets/images/players/4330.png?v=4.86",
+      "role": "Batsman",
+      "battingType": "Right-handed",
+      "bowlingType": "Right-arm off-break",
+      "biddingPrice": 21000
+    },
+    {
+      "playerId": 6,
+      "name": "Shakib Al Hasan",
+      "country": "Bangladesh",
+      "image": "https://documents.iplt20.com/playerheadshot/ipl/284/201.png",
+      "role": "All-rounder",
+      "battingType": "Left-handed",
+      "bowlingType": "Left-arm orthodox spin",
+      "biddingPrice": 24000
+    },
+    {
+      "playerId": 7,
+      "name": "Chris Gayle",
+      "country": "West Indies",
+      "image": "https://documents.iplt20.com/playerheadshot/ipl/284/236.png",
+      "role": "Batsman",
+      "battingType": "Left-handed",
+      "bowlingType": "Right-arm off-spin",
+      "biddingPrice": 25000
+    },
+    {
+      "playerId": 8,
+      "name": "Lasith Malinga",
+      "country": "Sri Lanka",
+      "image": "https://documents.iplt20.com/playerheadshot/ipl/284/211.png",
+      "role": "Bowler",
+      "battingType": "Right-handed",
+      "bowlingType": "Right-arm fast",
+      "biddingPrice": 20000
+    },
+    {
+      "playerId": 9,
+      "name": "Rashid Khan",
+      "country": "Afghanistan",
+      "image": "https://documents.iplt20.com/ipl/IPLHeadshot2024/218.png",
+      "role": "Bowler",
+      "battingType": "Right-handed",
+      "bowlingType": "Right-arm leg-spin",
+      "biddingPrice": 27000
+    },
+    {
+      "playerId": 10,
+      "name": "Faf du Plesis",
+      "country": "South Africa",
+      "image": "https://www.khelspace.com/cdn/shop/articles/94.png?v=1691129695",
+      "role": "Batsman",
+      "battingType": "Right-handed",
+      "bowlingType": "Right-arm off-spin",
+      "biddingPrice": 27000
+    },
+    {
+      "playerId": 11,
+      "name": "Glenn Maxwell",
+      "country": "Australia",
+      "image": "https://documents.iplt20.com/ipl/IPLHeadshot2024/28.png",
+      "role": "Batsman",
+      "battingType": "Right-handed",
+      "bowlingType": "Right-arm off-spin",
+      "biddingPrice": 27000
+    },
+    {
+      "playerId": 12,
+      "name": "Mustafizur Rahman",
+      "country": "Bangladesh",
+      "image": "https://documents.iplt20.com/ipl/IPLHeadshot2024/258.png",
+      "role": "Bowler",
+      "battingType": "Left-handed",
+      "bowlingType": "Left-arm fast",
+      "biddingPrice": 27000
+    }
+  ]
+  
